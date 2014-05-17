@@ -1,0 +1,19 @@
+{
+  "name": "node-ad-block",
+  "version": "0.0.0",
+  "description": "Node Ad Blocker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Robert Klep <robert@klep.name>",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^2.4.1",
+    "bunyan": "^0.22.3",
+    "hoxy": "^1.1.1",
+    "xpath": "0.0.6",
+    "xmldom": "^0.1.19",
+    "nomnom": "^1.6.2"
+  }
+}
