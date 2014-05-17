@@ -1,0 +1,27 @@
+#!/usr/bin/env node
+
+var path  = require('path');
+var opts  = require('nomnom')
+  .option('port', {
+    abbr    : 'p',
+    metavar : 'PORT',
+    default : 8228,
+    help    : 'Port to listen on',
+  }).option('host', {
+    abbr    : 'H',
+    metavar : 'HOST',
+    default : '0.0.0.0',
+    help    : 'Host to listen on',
+  }).option('rule-dir', {
+    abbr    : 'd',
+    metavar : 'DIRECTORY',
+    default : path.normalize(process.env.HOME + '/.node-rewriting-proxy'),
+    help    : 'Directory where rules files reside',
+  }).option('log-level', {
+    abbr    : 'l',
+    metavar : 'LEVEL',
+    default : 'warn',
+    help    : 'Log level ("trace", "debug", "info", "warn", "error", "fatal")',
+  }).parse();
+
+require('../lib').Proxy(opts).run();

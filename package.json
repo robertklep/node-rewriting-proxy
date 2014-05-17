@@ -1,0 +1,19 @@
+{
+  "name": "node-rewriting-proxy",
+  "version": "0.0.0",
+  "description": "Rewriting HTTP proxy",
+  "author": "Robert Klep <robert@klep.name>",
+  "license": "ISC",
+  "bin" : "./bin/rewriting-proxy-server",
+  "dependencies": {
+    "bunyan": "^0.22.3",
+    "compression": "^1.0.9",
+    "express": "^4.7.1",
+    "lodash": "^2.4.1",
+    "long-stack-traces": "^0.1.2",
+    "mime": "^1.2.11",
+    "nomnom": "^1.6.2",
+    "xmldom": "^0.1.19",
+    "xpath": "0.0.6"
+  }
+}
