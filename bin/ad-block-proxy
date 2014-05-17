@@ -7,8 +7,13 @@ var opts  = require('nomnom')
     metavar : 'PORT',
     default : 8228,
     help    : 'Port to listen on',
+  }).option('host', {
+    abbr    : 'H',
+    metavar : 'HOST',
+    default : '127.0.0.1',
+    help    : 'Host to listen on',
   }).option('rule-dir', {
-    abbr    : 'r',
+    abbr    : 'd',
     metavar : 'DIRECTORY',
     default : path.normalize(process.env.HOME + '/.node-ad-block'),
     help    : 'Directory where rules files reside',
