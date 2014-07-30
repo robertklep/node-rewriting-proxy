@@ -1,6 +1,6 @@
 ## Rewriting HTTP proxy
 
-This Node.js based HTTP proxy allows
+This Node.js based HTTP proxy allows you to rewrite HTTP requests and responses based on rules (*if request matches this hostname, block the request*, etc). You can also add/remove/modify content on specific pages.
 
 ### Installation
 
@@ -40,3 +40,9 @@ Options:
 ```
 
 The proxy server doesn't daemonize (for now).
+
+### Rule format
+
+TBD.
+
+For now, take a look at [this file](http://glimmerblocker.org/site/filters/default/ad-networks.xml), which is one of the default lists used by GlimmerBlocker. Most rules in there should work.
