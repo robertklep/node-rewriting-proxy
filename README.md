@@ -36,6 +36,7 @@ Options:
    -p PORT, --port PORT                 Port to listen on  [8228]
    -H HOST, --host HOST                 Host to listen on  [0.0.0.0]
    -d DIRECTORY, --rule-dir DIRECTORY   Directory where rules files reside  [$HOME/.node-rewriting-proxy]
+   -t URL, --test URL                   Test an url to against the ruleset(s)
    -l LEVEL, --log-level LEVEL          Log level ("trace", "debug", "info", "warn", "error", "fatal")  [warn]
 ```
 
