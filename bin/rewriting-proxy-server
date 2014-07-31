@@ -17,6 +17,10 @@ var opts  = require('nomnom')
     metavar : 'DIRECTORY',
     default : path.normalize(process.env.HOME + '/.node-rewriting-proxy'),
     help    : 'Directory where rules files reside',
+  }).option('test', {
+    abbr    : 't',
+    metavar : 'URL',
+    help    : 'Test an url to against the ruleset(s)',
   }).option('log-level', {
     abbr    : 'l',
     metavar : 'LEVEL',
