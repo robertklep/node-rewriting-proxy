@@ -1,6 +1,6 @@
 {
   "name": "node-rewriting-proxy",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Rewriting HTTP proxy",
   "author": "Robert Klep <robert@klep.name>",
   "license": "ISC",
