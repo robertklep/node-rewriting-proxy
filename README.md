@@ -4,7 +4,7 @@ This Node.js based HTTP proxy allows you to rewrite HTTP requests and responses 
 
 ### Installation
 
-First, make sure Node and NPM [are installed](http://nodejs.org/). Tested with Node 0.10.
+First, make sure Node and NPM [are installed](http://nodejs.org/).
 
 Next, install directly from the GitHub repository:
 
